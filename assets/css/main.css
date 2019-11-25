@@ -1557,7 +1557,7 @@ input, select, textarea {
 
 		.image.featured {
 			display: block;
-			width: 60%;
+			width: 40%;
 			margin: 0 0 2em 0;
 			margin-left:auto;
 			margin-right:auto;
@@ -2182,6 +2182,8 @@ input, select, textarea {
 		}
 
 /* Header */
+
+
 
 	#header {
 		position: relative;
