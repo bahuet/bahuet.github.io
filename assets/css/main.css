@@ -244,6 +244,7 @@ input, select, textarea {
 			text-align: center;
 		}
 
+
 /* Container */
 
 	.container {
@@ -1556,8 +1557,10 @@ input, select, textarea {
 
 		.image.featured {
 			display: block;
-			width: 100%;
+			width: 60%;
 			margin: 0 0 2em 0;
+			margin-left:auto;
+			margin-right:auto;
 		}
 
 		.image.fit {
@@ -1793,6 +1796,7 @@ input, select, textarea {
 						}
 
 		}
+
 
 /* Form */
 
@@ -2096,7 +2100,7 @@ input, select, textarea {
 		cursor: default;
 	}
 
-		.feature-icon .icon {
+		.feature-icon img {
 			display: inline-block;
 			width: 2em;
 			height: 2em;
@@ -2131,7 +2135,7 @@ input, select, textarea {
 			margin-left: -0.5px;
 		}
 
-	.dark .feature-icon .icon {
+	.dark .feature-icon img {
 		background: rgba(255, 255, 255, 0.15);
 		box-shadow: inset 0 0 0 1px rgba(255, 255, 255, 0.5);
 		color: #fff;
