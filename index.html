@@ -219,25 +219,24 @@
 
 				<section>
 
-					<form method="post" action="#">
+					<form method="post" name="simple-contact-form" accept-charset="utf-8" action="https://formspree.io/tudixin@gmail.com">
 						<div class="row gtr-50">
 							<div class="col-6 col-12-narrow">
-								<input type="text" name="name" id="name" value="" placeholder="Nom" />
+								<input type="text" name="name" id="full-name" value="" placeholder="Nom" />
 							</div>
 							<div class="col-6 col-12-narrow">
-								<input type="text" name="email" id="email" value="" placeholder="Email" />
+								<input type="text" name="_replyto" id="email-address"  value="" placeholder="Email" />
 							</div>
 							<div class="col-12">
 								<div class="select" tabindex="-1">
 
 								</div>
 							</div>
-							<div class="col-12">
-								<input type="text" name="subject" id="subject" value="" placeholder="Sujet" />
-							</div>
+
 							<div class="col-12">
 								<textarea name="message" id="message" placeholder="Entrez votre message"></textarea>
 							</div>
+							<input type="hidden" name="_subject" id="email-subject" value="Contact Form Submission">
 							<div class="col-12">
 								<ul class="actions">
 									<li><input type="submit" class="button" value="Envoyer le message" /></li>
